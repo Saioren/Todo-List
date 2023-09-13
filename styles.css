@@ -1,0 +1,29 @@
+body {
+color: white;
+background-color: rgb(16, 16, 16);
+    font-family: arial;
+    
+}
+
+.todo-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    align-items: center;
+    width: 400px;
+    justify-items: center;
+}
+.js-add-name, .js-add-date {
+    border: 1px solid white;
+    color-scheme: dark;
+padding: 10px;
+}
+.input-div {
+    display: flex;
+}
+.js-add-button, .delete-button {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
